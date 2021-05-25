@@ -89,7 +89,7 @@ h2 {
 }
 
 h3 {
-	color: #b229ff;
+	color: #555299;
 	font: 700 1.375rem/1.75rem "Montserrat", sans-serif;
 }
 
@@ -114,12 +114,12 @@ a {
 }
 
 a:hover {
-	color: #b229ff;
+	color: #555299;
 	text-decoration: underline;
 }
 
 a.green {
-	color: #b229ff;
+	color: #555299;
 }
 
 a.white,
@@ -140,16 +140,16 @@ strong {
 }
 
 .section-title {
-	color: #b229ff;
+	color: #555299;
 	font: 500 0.8125rem/1.125rem "Montserrat", sans-serif;
 }
 
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.1875rem 1.875rem 1.1875rem 1.875rem;
-	border: 0.125rem solid #b229ff;
+	border: 0.125rem solid #555299;
 	border-radius: 0.25rem;
-	background-color: #b229ff;
+	background-color: #555299;
 	color: rgb(0, 0, 0);
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
@@ -158,9 +158,9 @@ strong {
 .btn_smaller {
 	display: inline-block;
 	padding: 0.500rem 0.500rem 0.500rem 0.500rem;
-	border: 0.125rem solid #b229ff;
+	border: 0.125rem solid #555299;
 	border-radius: 0.25rem;
-	background-color: #b229ff;
+	background-color: #555299;
 	color: rgb(0, 0, 0);
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
@@ -169,22 +169,22 @@ strong {
 
 .btn_smaller:hover {
 	background-color: transparent;
-	color: #b229ff;	
+	color: #555299;	
 	text-decoration: none;
 }
 
 .btn-solid-reg:hover {
 	background-color: transparent;
-	color: #b229ff;
+	color: #555299;
 	text-decoration: none;
 }
 
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.375rem 2.125rem 1.375rem 2.125rem;
-	border: 0.125rem solid #b229ff;
+	border: 0.125rem solid #555299;
 	border-radius: 0.25rem;
-	background-color: #b229ff;
+	background-color: #555299;
 	color: #ffffff;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
@@ -193,17 +193,17 @@ strong {
 
 .btn-solid-lg:hover {
 	background-color: transparent;
-	color: #b229ff;
+	color: #555299;
 	text-decoration: none;
 }
 
 .btn-outline-reg {
 	display: inline-block;
 	padding: 1.1875rem 1.875rem 1.1875rem 1.875rem;
-	border: 0.125rem solid #b229ff;
+	border: 0.125rem solid #555299;
 	border-radius: 0.25rem;
 	background-color: transparent;
-	color: #b229ff;
+	color: #555299;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
@@ -394,9 +394,9 @@ input[type='checkbox'] {
 	display: inline-block;
 	width: 100%;
 	height: 3.125rem;
-	border: 0.125rem solid #b229ff;
+	border: 0.125rem solid #555299;
 	border-radius: 0.25rem;
-	background-color: #b229ff;
+	background-color: #555299;
 	color: #fff;
 	font: 700 0.75rem/1.75rem "Montserrat", sans-serif;
 	cursor: pointer;
@@ -405,7 +405,7 @@ input[type='checkbox'] {
 
 .form-control-submit-button:hover {
 	background-color: transparent;
-	color: #b229ff;
+	color: #555299;
 }
 
 /* Form Success And Error Message Formatting */
@@ -698,7 +698,7 @@ input[type='checkbox'] {
 
 .navbar-custom .nav-item .nav-link:hover,
 .navbar-custom .nav-item .nav-link.active {
-	color: #b229ff;
+	color: #555299;
 }
 
 /* Dropdown Menu */
@@ -743,7 +743,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .dropdown-item:hover .item-text {
-	color: #b229ff;
+	color: #555299;
 }
 
 .navbar-custom .dropdown-items-divide-hr {
@@ -846,7 +846,7 @@ body {
 /*    04. Header     */
 /*********************/
 .header {
-	background: linear-gradient(rgba(#b229ff15), rgba(#b229ff15)), url('../images/oo.gif') center center no-repeat;
+	background: linear-gradient(rgba(#55529915), rgba(#55529915)), url('../images/oo.gif') center center no-repeat;
 	background-size: cover;
 }
 
@@ -862,7 +862,7 @@ body {
 
 .header h1 {
 	margin-bottom: 0.5rem;
-	color: #b229ff;
+	color: #555299;
 }
 
 .header .p-large {
@@ -1014,7 +1014,7 @@ body {
 }
 
 .cards-2 .list-unstyled .fas {
-	color: #b229ff;
+	color: #555299;
 	font-size: 0.5rem;
 	line-height: 1.375rem;
 }
@@ -1031,7 +1031,7 @@ body {
 }
 
 .cards-2 .price span {
-	color: #b229ff;
+	color: #555299;
 }
 
 .cards-2 .button-container {
@@ -1079,7 +1079,7 @@ body {
 	width: 2.25rem;
 	height: 2.25rem;
 	margin-right: 0.875rem;
-	border: 0.125rem solid #b229ff;
+	border: 0.125rem solid #555299;
 	border-radius: 50%;
 	background-color: #ffffff;
 	color: #2c2f33;
@@ -1097,8 +1097,8 @@ body {
 }
 
 .accordion .item:hover span[aria-expanded="false"] .circle-numbering {
-	border: 0.125rem solid #b229ff;
-	color: #b229ff;
+	border: 0.125rem solid #555299;
+	color: #555299;
 }
 
 .accordion .accordion-title {
@@ -1114,11 +1114,11 @@ body {
 }
 
 .accordion .item:hover .accordion-title {
-	color: #b229ff;
+	color: #555299;
 }
 
 .accordion span[aria-expanded="true"] .accordion-title {
-	color: #b229ff;
+	color: #555299;
 }
 
 .accordion .accordion-body {
@@ -1157,7 +1157,7 @@ body {
 
 .tabs .nav-link:hover,
 .tabs .nav-link.active {
-	color: #b229ff;
+	color: #555299;
 }
 
 .tabs .nav-link .fas {
@@ -1187,7 +1187,7 @@ body {
 	display: block;
 	padding-left: 1.5rem;
 	border-radius: 0.125rem;
-	background: linear-gradient(to bottom right, #b229ff, #b229ff);
+	background: linear-gradient(to bottom right, #555299, #555299);
 }
 
 .tabs #tab-1 .progress-bar.first {
@@ -1213,7 +1213,7 @@ body {
 }
 
 .tabs #tab-2 .list-unstyled .media-bullet {
-	color: #b229ff;
+	color: #555299;
 	font-weight: 600;
 	font-size: 2rem;
 	line-height: 2rem;
@@ -1224,7 +1224,7 @@ body {
 }
 
 .tabs #tab-3 .list-unstyled .fas {
-	color: #b229ff;
+	color: #555299;
 	font-size: 0.5rem;
 	line-height: 1.375rem;
 }
@@ -1337,7 +1337,7 @@ body {
 }
 
 .form-1 .list-unstyled .fas {
-	color: #b229ff;
+	color: #555299;
 	font-size: 0.5rem;
 	line-height: 1.375rem;
 }
@@ -1422,12 +1422,12 @@ body {
 }
 
 .filter .button-group a:hover {
-	background-color: #b229ff;
+	background-color: #555299;
 	color: #fff;
 }
 
 .filter .button-group a.button.is-checked {
-	background-color: #b229ff;
+	background-color: #555299;
 	color: #fff;
 }
 
@@ -1509,7 +1509,7 @@ body {
 	margin-bottom: 0.625rem;
 	margin-left: 0;
 	border: none;
-	background-color: #b229ff;
+	background-color: #555299;
 }
 
 .lightbox-basic h6 {
@@ -1640,7 +1640,7 @@ body {
 }
 
 .basic-2 .fa-stack:hover .fa-stack-1x {
-	color: #b229ff;
+	color: #555299;
 }
 
 
@@ -1673,7 +1673,7 @@ body {
 }
 
 .counter .list-unstyled .fas {
-	color: #b229ff;
+	color: #555299;
 	font-size: 0.5rem;
 	line-height: 1.375rem;
 }
@@ -1695,7 +1695,7 @@ body {
 .counter #counter .counter-value {
 	display: inline-block;
 	margin-bottom: 0.125rem;
-	color: #b229ff;
+	color: #555299;
 	font: 700 2.875rem/3.25rem "Montserrat", sans-serif;
 	vertical-align: middle;
 }
@@ -1740,7 +1740,7 @@ body {
 .form-2 .list-unstyled .fab {
 	margin-right: 0.5rem;
 	font-size: 0.875rem;
-	color: #b229ff;
+	color: #555299;
 }
 
 .form-2 .list-unstyled .fa-phone {
@@ -1781,7 +1781,7 @@ body {
 }
 
 .form-2 .fa-stack:hover .fa-stack-1x {
-	color: #b229ff;
+	color: #555299;
 }
 
 
@@ -1843,7 +1843,7 @@ a.back-to-top {
 	width: 2.625rem;
 	height: 2.625rem;
 	border-radius: 1.875rem;
-	background: #b229ff url("../images/up-arrow.png") no-repeat center 47%;
+	background: #555299 url("../images/up-arrow.png") no-repeat center 47%;
 	background-size: 1.125rem 1.125rem;
 	text-indent: -9999px;
 }
@@ -1905,7 +1905,7 @@ a:hover.back-to-top {
 }
 
 .ex-basic-2 .list-unstyled .fas {
-	color: #b229ff;
+	color: #555299;
 	font-size: 0.5rem;
 	line-height: 1.375rem;
 }
@@ -1960,7 +1960,7 @@ a:hover.back-to-top {
 
 	.navbar-custom .nav-item .nav-link:hover,
 	.navbar-custom .nav-item .nav-link.active {
-		color: #b229ff;
+		color: #555299;
 	}
 
 	.navbar-custom.top-nav-collapse {
@@ -1979,7 +1979,7 @@ a:hover.back-to-top {
 
 	.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
 	.navbar-custom.top-nav-collapse .nav-item .nav-link.active {
-		color: #b229ff;
+		color: #555299;
 	}
 
 	.navbar-custom .dropdown-menu {
@@ -2151,7 +2151,7 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom .fa-stack:hover .fa-stack-1x {
-		color: #b229ff;
+		color: #555299;
 	}
 	/* end of navigation */
 
@@ -2561,8 +2561,8 @@ padding:12px 24px;
 	background-image:none;
 	background-color: transparent;
 	border:0px solid transparent;
-	border-color: #b229ff;
-	color: #b229ff;
+	border-color: #555299;
+	color: #555299;
 	border-radius:5px;
 	width: 100%;
 }
@@ -2588,9 +2588,9 @@ input[type=submit] {
 	-ms-user-select:none;
 	user-select:none;
 	background-image:none;
-	background-color: #b229ff15;
+	background-color: #55529915;
 	border:0px solid transparent;
-	border-color: #b229ff;
-	color: #b229ff;
+	border-color: #555299;
+	color: #555299;
 	border-radius:5px
 }
