@@ -251,6 +251,10 @@ strong {
 	text-decoration: none;
 }
 
+.h3-white {
+	color: #fff;
+}
+
 .form-group {
 	position: relative;
 	margin-bottom: 1.25rem;
