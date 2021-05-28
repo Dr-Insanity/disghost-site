@@ -5,7 +5,9 @@ function not_ready_yet() {
     alert("Sentinel X is not released yet.")
 }
 
-
+function done_with_gen() {
+    $('#butt').remove();
+}
 
 setTimeout(function(){
     $('#spinner').remove();

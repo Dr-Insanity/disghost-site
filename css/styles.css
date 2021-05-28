@@ -168,13 +168,13 @@ strong {
 }
 
 .btn_smaller:hover {
-	background-color: transparent;
+	background-color: #ffffff;
 	color: #33007b;	
 	text-decoration: none;
 }
 
 .btn-solid-reg:hover {
-	background-color: transparent;
+	background-color: #ffffff;
 	color: #33007b;
 	text-decoration: none;
 }
@@ -192,7 +192,7 @@ strong {
 }
 
 .btn-solid-lg:hover {
-	background-color: transparent;
+	background-color: #ffffff;
 	color: #33007b;
 	text-decoration: none;
 }
