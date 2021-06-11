@@ -414,14 +414,14 @@ input[type='checkbox'] {
 
 /* Form Success And Error Message Formatting */
 #lmsgSubmit.h3.text-center.tada.animated,
-#cmsgSubmit.h3.text-center.tada.animated,
+#cmsgSubmit.h3.text-center.tada.animated,	
 #pmsgSubmit.h3.text-center.tada.animated,
 #lmsgSubmit.h3.text-center,
 #cmsgSubmit.h3.text-center,
 #pmsgSubmit.h3.text-center {
 	display: block;
 	margin-bottom: 0;
-	color: #b93636;
+	color: #b93636;		
 	font: 400 1.125rem/1rem "Open Sans", sans-serif;
 }
 
