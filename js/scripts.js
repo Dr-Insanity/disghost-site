@@ -10,6 +10,8 @@ function preventDefault(e) {
   e.preventDefault();
 }
 
+/*
+
 function preventDefaultForScrollKeys(e) {
   if (keys[e.keyCode]) {
     preventDefault(e);
@@ -33,6 +35,7 @@ window.addEventListener(wheelEvent, preventDefault, wheelOpt); // modern desktop
 window.addEventListener('touchmove', preventDefault, wheelOpt); // mobile
 window.addEventListener('keydown', preventDefaultForScrollKeys, false)
 
+*/
 
 function not_ready_yet() {
     alert("Sentinel X is not released yet.")
