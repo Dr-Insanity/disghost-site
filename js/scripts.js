@@ -10,28 +10,6 @@ function preventDefault(e) {
   e.preventDefault();
 }
 
-function preventDefaultForScrollKeys(e) {
-  if (keys[e.keyCode]) {
-    preventDefault(e);
-    return false;
-  }
-}
-
-// modern Chrome requires { passive: false } when adding event
-var supportsPassive = false;
-try {
-  window.addEventListener("test", null, Object.defineProperty({}, 'passive', {
-    get: function () { supportsPassive = true; } 
-  }));
-} catch(e) {}
-
-var wheelOpt = supportsPassive ? { passive: false } : false;
-var wheelEvent = 'onwheel' in document.createElement('div') ? 'wheel' : 'mousewheel';
-
-window.addEventListener('DOMMouseScroll', preventDefault, false); // older FF
-window.addEventListener(wheelEvent, preventDefault, wheelOpt); // modern desktop
-window.addEventListener('touchmove', preventDefault, wheelOpt); // mobile
-window.addEventListener('keydown', preventDefaultForScrollKeys, false)
 
 
 function not_ready_yet() {
