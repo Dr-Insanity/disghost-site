@@ -157,7 +157,7 @@ strong {
 }
 .btn_smaller {
 	display: inline-block;
-	padding: 0.500rem 0.500rem 0.500rem 0.500rem;
+	padding: 0.7rem 0.7rem 0.7rem 0.7rem;
 	border: 0.125rem solid #33007b;
 	border-radius: 0.25rem;
 	background-color: #33007b;
@@ -168,8 +168,8 @@ strong {
 }
 
 .btn_smaller:hover {
-	background-color: #ffffff;
-	color: #33007b;	
+	background-color: #00ff6a;
+	color: #ffffff;	
 	text-decoration: none;
 }
 
@@ -1801,12 +1801,12 @@ body {
 /**********************/
 .footer {
     padding-top: 5rem;
-    background-color: #151718;
+    background-color: #23272a;
     border-radius: 0px;
     border: 0px solid #000;
     padding: 0px;
-    width: 152%;
-    height: px
+    width: 100%;
+    height: 563px
 }
 
 .footer .text-container {
