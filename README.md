@@ -1,7 +1,7 @@
 # Sentinel X's website - General Purpose Discord Bot
 Hello reader,
 If you're here, you are probably interested in the source of my website.
-Originally, it was a template from Aria / Inovatik. That can be found (here)[https://www.free-css.com/free-css-templates/page259/aria]
+Originally, it was a template from Aria / Inovatik. That can be found [here](https://www.free-css.com/free-css-templates/page259/aria)
 report broken links, please. Thank you.
 
 ## further info [TL;DR]
