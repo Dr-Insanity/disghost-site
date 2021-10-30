@@ -52,6 +52,11 @@ html {
 	height: 100%;
 }
 
+.old-fashion-message {
+    font-family: fixedsys;
+    font-size: 16px;
+}
+
 body, p {
 	color: #fff;
 	font: 400 1rem/1.5625rem "Open Sans", sans-serif;
