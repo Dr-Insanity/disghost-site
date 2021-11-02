@@ -687,7 +687,7 @@ input[type='checkbox'] {
 .navbar-custom .navbar-brand.logo-image img {
     width: 2rem;
 	height: 2rem;
-	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
 }
 
 .navbar-custom .navbar-brand.logo-text {
@@ -852,7 +852,7 @@ body {
   
   #stats,
   .count-particles{
-	-webkit-user-select: none;
+	user-select: none;
   }
   
   #stats{
@@ -1031,8 +1031,8 @@ body {
 	border-bottom-left-radius: 1.375rem;
 	border-bottom-right-radius: 1.375rem;
 	background-color: #1a1f22;
-	margin-right: 0px;
-	margin-left: 0px;
+	margin-right: -208px;
+	margin-left: -208px;
 }
 
 
@@ -1081,7 +1081,7 @@ body {
 /*************************/
 .accordion .area-1 {
 	height: 27rem;
-	background: url('../images/lunsec_LI.jpg') center center no-.cards-2 h3 {
+	background: url('../images/lunsec_LI.jpg') center center no-cards-2 h3;
 	margin-bottom: 0.75rem;
 	text-align: center;
 }
