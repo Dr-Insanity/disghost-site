@@ -1025,7 +1025,63 @@ body {
 	background-color: #1a1f22;
 }
 
+.cards-2 .card-body_invite_page {
+	padding: 2.25rem 2rem 2.125rem 2rem;
+	border: 1px solid #111213;
+	border-bottom-left-radius: 1.375rem;
+	border-bottom-right-radius: 1.375rem;
+	background-color: #1a1f22;
+	margin-right: -208px;
+	margin-left: -208px;
+}
+
+
 .cards-2 h3 {
+	margin-bottom: 0.75rem;
+	text-align: center;
+}
+
+.cards-2 .list-unstyled {
+	margin-bottom: 1.5rem;
+}
+
+.cards-2 .list-unstyled .fas {
+	color: #c41700;
+	font-size: 0.5rem;
+	line-height: 1.375rem;
+}
+
+.cards-2 .list-unstyled .media-body {
+	margin-left: 0.625rem;
+}
+
+.cards-2 .price {
+	margin-bottom: 0.25rem;
+	color: #484a46;
+	font: 700 1rem/1.5rem "Montserrat", sans-serif;
+	text-align: center;
+}
+
+.cards-2 .price span {
+	color: #c41700;
+}
+
+.cards-2 .button-container {
+	margin-top: -1.375rem;
+	text-align: center;
+}
+
+.cards-2 .btn-solid-reg:hover {
+	background-color: #ffff;
+}
+
+
+/*************************/
+/*     08. Details 1     */
+/*************************/
+.accordion .area-1 {
+	height: 27rem;
+	background: url('../images/lunsec_LI.jpg') center center no-.cards-2 h3 {
 	margin-bottom: 0.75rem;
 	text-align: center;
 }
@@ -1319,218 +1375,7 @@ body {
 	margin-right: auto;
 	margin-bottom: 0.25rem;
 	margin-left: auto;
-	border-radius: 50%;
-}
-
-.slider .card .card-body {
-	padding-bottom: 0;
-}
-
-.slider .testimonial-text {
-	margin-bottom: 0.625rem;
-}
-
-.slider .testimonial-author {
-	color: #484a46;
-}
-
-
-/**********************/
-/*     11. Call Me    */
-/**********************/
-.form-1 {
-	padding-top: 6.625rem;
-	padding-bottom: 5.625rem;
-	background-color: #2c2f33;
-}
-
-.form-1 .text-container {
-	margin-bottom: 4rem;
-}
-
-.form-1 .section-title {
-	margin-bottom: 0.5rem;
-}
-
-.form-1 h2 {
-	margin-bottom: 1.375rem;
-	color: #fff;
-}
-
-.form-1 .list-unstyled .fas {
-	color: #c41700;
-	font-size: 0.5rem;
-	line-height: 1.375rem;
-}
-
-.form-1 .list-unstyled .media-body {
-	margin-left: 0.625rem;
-}
-
-.form-1 .label-control {
-	color: #fff;
-}
-
-.form-1 .form-control-input,
-.form-1 .form-control-select {
-	border: 1px solid #39728f;
-	background-color: #2a5d77;
-	color: #fff;
-}
-
-.form-1 .form-control-textarea {
-	border: 1px solid #39728f;
-	background-color: #2a5d77;
-	color: #fff;
-}
-
-.form-1 .form-control-input:focus,
-.form-1 .form-control-input:hover,
-.form-1 .form-control-select:focus,
-.form-1 .form-control-select:hover,
-.form-1 .form-control-textarea:focus,
-.form-1 .form-control-textarea:hover {
-	border: 1px solid #fff;
-}
-
-#lmsgSubmit.h3.text-center.tada.animated,
-#lmsgSubmit.h3.text-center {
-	color: #fff;
-}
-
-.form-1 .help-block.with-errors .list-unstyled {
-	color: #dfe5ec;
-}
-
-
-/************************/
-/*     12. Projects     */
-/************************/
-.filter {
-	padding-top: 6.5rem;
-	padding-bottom: 7rem;
-}
-
-.filter .section-title {
-	margin-bottom: 0.5rem;
-}
-
-.filter h2,
-.filter .section-title {
-	text-align: center;
-}
-
-.filter h2 {
-	margin-bottom: 3.25rem;
-}
-
-.filter .button-group {
-	text-align: center;
-}
-
-.filter .button-group a {
-	display: inline-block;
-	margin-right: 0.1875rem;
-	margin-bottom: 0.5rem;
-	margin-left: 0.1875rem;
-	padding: 0.3125rem 1.375rem 0.25rem 1.375rem;
-	border-radius: 0.25rem;
-	background-color: #f1f4f7;
-	color: #7b7e85;
-	font: 700 0.75rem/1.25rem "Montserrat", sans-serif;
-	cursor: pointer;
-	transition: all 0.2s ease;
-}
-
-.filter .button-group a:hover {
-	background-color: #c41700;
-	color: #fff;
-}
-
-.filter .button-group a.button.is-checked {
-	background-color: #c41700;
-	color: #fff;
-}
-
-.filter .grid {
-	margin-top: 1.25rem;
-	border-radius: 0.375rem;
-}
-
-/* Hover Animation */
-.filter .element-item {
-	position: relative;
-	float: left;
-	overflow: hidden;
-	width: 50%;
-	background-color: #000; /* to hide 1px white margin in IE */
-}
-
-.filter .element-item img {
-	max-width: 100%;
-	margin: 0;
-	transition: all 0.3s;
-}
-
-.filter .element-item:hover img {
-	-moz-transform: scale(1.15);
-	-webkit-transform: scale(1.15);
-	transform: scale(1.15);
-}
-/* end of hover animation */
-
-.filter .element-item .element-item-overlay {
-	position: absolute;
-	z-index: 2;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0, 0, 0, 0.4);
-	opacity: 1;
-	text-align: center;
-	transition: all 0.3s;
-}
-
-.filter .element-item .element-item-overlay span {
-	position: absolute;
-	z-index: 3;
-	top: 42%;
-	right: 0;
-	left: 0;
-	color: #fff;
-	font: 700 1.125rem/1.625rem "Montserrat", sans-serif;
-}
-
-
-/**********************************/
-/*     13. Project Lightboxes     */
-/**********************************/
-.lightbox-basic {
-	position: relative;
-	max-width: 62.5rem;
-	margin: 2.5rem auto;
-	padding: 1.5625rem;
-	border-radius: 0.25rem;
-	background: #fff;
-	text-align: left;
-}
-
-.lightbox-basic img {
-	margin-right: auto;
-	margin-bottom: 2rem;
-	margin-left: auto;
-	border-radius: 0.25rem;
-}
-
-.lightbox-basic .line-heading {
-	width: 3rem;
-	height: 1px;
-	margin-top: 0;
-	margin-bottom: 0.625rem;
-	margin-left: 0;
-	border: none;
-	background-color: #c41700;
+ound-color: #c41700;
 }
 
 .lightbox-basic h6 {
