@@ -49,6 +49,11 @@ body.fixedsys-default {
     font-size: 36px !important;
 }
 
+.fixedsys-navbar-white {
+    font-family: 'fixedsys' !important;
+    font-size: 28px !important;
+}
+
 .fixedsys-default small {
     color: #999;
     font-size: 16px !important;
