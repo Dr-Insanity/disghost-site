@@ -61,7 +61,7 @@ body.fixedsys-default {
 
 .fixedsys-big-red {
     font-family: 'fixedsys' !important;
-    color: rgb(255, 0, 0);
+    color: #004972;
     font-size: 26px !important;
 }
 
