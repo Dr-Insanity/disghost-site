@@ -113,6 +113,17 @@
                 <li class="nav-item">
                     <a class="nav-link page-scroll fixedsys-big-white" href="https://discord.com/invite/hjg2J64ZRD">JOIN</a>
                 </li>
+                <li class="nav-item" >
+                    <% if(user && user.id) { %>
+                        <button class="btn-solid-lg page-scroll fixedsys-default" 
+                        style="letter-spacing: 0.1em;font-weight: 750;width: 100%;"
+                        onclick="location.href='/logout'" type="button"><img src="https://cdn.discordapp.com/avatars/<%=user.id%>/<%=user.avatar%>.png", style="width: 50px;margin-bottom:3%;"alt="LOGO"> Logout</button>
+                    <% }else { %>
+                        <button class="btn-solid-lg page-scroll fixedsys-default" 
+                        style="letter-spacing: 0.1em;font-weight: 750;width: 100%;"
+                        onclick="location.href='/login'" type="button"><span class="iconify" data-icon="simple-icons:discord"></span> Login</button>
+                    <% }%>
+                </li>
             </ul>
             </span>
         </div>
