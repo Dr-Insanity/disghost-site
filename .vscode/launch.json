@@ -4,12 +4,14 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
-            "type": "msedge",
+            "type": "firefox",
             "request": "launch",
             "reAttach": true,
-            "name": "Launch index.html",
-            "file": "${workspaceFolder}/invite.html"
+            "webRoot": "${workspaceFolder}",
+            "name": "Launch current file",
+            "url": "${file}"
         }
     ]
 }
